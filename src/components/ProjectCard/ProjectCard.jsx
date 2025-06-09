@@ -11,7 +11,7 @@ function ProjectCard({
     githublink,
 }) {
     return (
-        <div className="w-[361px] bg-white rounded-[20px] border border-black overflow-hidden shadow-lg flex flex-col">
+        <div className="w-[361px] bg-white rounded-[20px] border border-gray-200 overflow-hidden shadow-lg flex flex-col transition text-shadow-gray-600">
             {/* Placeholder for Project Image - Assuming an image goes here */}
             <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                 <img 

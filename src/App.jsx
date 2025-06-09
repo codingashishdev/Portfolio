@@ -13,7 +13,7 @@ function App() {
                 <div className="">
                     <Navbar />
                 </div>
-                <div className="flex items-center justify-center text-left m-5 p-8 bg-gradient-to-r from-gray-150 to-gray-100 rounded-2xl shadow-xl shadow-gray-400 max-w-4xl">
+                <div className="flex items-center justify-center text-left m-5 p-8 transition duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-gray-150 hover:to-gray-100 rounded-2xl shadow-2xl">
                     <div className="flex-shrink-0">
                         <div className="relative">
                             <Image 
@@ -22,17 +22,16 @@ function App() {
                             />
                         </div>
                     </div>
-                    <div className="ml-8 max-w-md">
-                        <div className="mb-4">
+                    <div className="ml-8 max-w-md group">
+                        <div className="mb-4 group">
                             <span className="text-4xl font-extrabold text-gray-800 block leading-tight">
                                 Hey, I'm Ashish
                             </span>
-                            <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mt-2 rounded-full"></div>
+                            <div className="w-16 mt-2 rounded-full h-1  bg-gradient-to-r from-blue-500 to-indigo-600"></div>
                         </div>
                         <p className="text-lg text-gray-600 font-medium leading-relaxed">
                             Software Engineer and developer, who loves solving problems and building stuff for web and CLI
                         </p>
-                        
                     </div>
                 </div>
             </div>
